@@ -1,1 +1,1 @@
-# Holiday_FInder_Application
+# Holiday_Finder_Application
