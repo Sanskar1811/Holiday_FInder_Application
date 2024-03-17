@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Holiday Finder Application</title>
+    <style>
+        * {
+            font-size: 40px;
+        }
+        body {
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Find Out Holidays of Year 2024</h1>
+        <form method="POST" onsubmit="return check()">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <br><br>
+            <input type="submit" value="Find Holidays" name="sub" />
+        </form>
+    </center>
+</body>
+<br><br><br>
+<footer>
+<center>
+<h2 style="color: white; background-color: black;  text-align: center; display: flex; justify-content: space-between;">
+    <span style="text-align: center;">Name ~ Sanskar Gawade </span>
+    <span style="text-align: right;"> Enrollment No ~ 03160923</span>
+</h2>
+</footer>
+</center>
+</html>
